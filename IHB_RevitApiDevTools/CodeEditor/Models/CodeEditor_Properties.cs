@@ -8,6 +8,9 @@ namespace IHB_RevitApiDevTools.CodeEditor.Models
 {
     public static class CodeEditor_Properties
     {
+
+
+
         public const string baseCode =
 @"#region Libraries
 using System;

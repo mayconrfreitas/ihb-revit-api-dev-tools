@@ -163,13 +163,6 @@
                 Background="#2DB4FB"
                 CornerRadius="5,5,0,0">
             <StackPanel Orientation="Vertical">
-                <!--<CheckBox Content=""
-                          HorizontalAlignment="Center"
-                          VerticalAlignment="Center"
-                          Margin="7 0 3 0"
-                          PreviewMouseUp="CheckBox_ChangeSelection"
-                          IsChecked="False"
-                          />-->
                 <TextBlock x:Name="ListBxTitle"
                            Text="Título"
                            TextWrapping="Wrap"
