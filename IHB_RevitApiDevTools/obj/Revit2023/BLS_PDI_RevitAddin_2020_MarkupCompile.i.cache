@@ -1,0 +1,20 @@
+﻿BLS_PDI_RevitAddin_2020
+
+
+library
+C#
+.cs
+D:\SP\OneDrive - BLOSSOM CONSULTORIA E ASSESSORIA LTDA\_Arquivos de Trabalho\Plugins\BLS_PDI_RevitAddin_2020\BLS_PDI_RevitAddin_2020\obj\Revit2023\
+BLS_PDI_RevitAddin_2020
+none
+false
+Revit2023
+
+11-1634236999
+41514454041
+7035322208
+38-854538986
+Commands\Eletrica\ListaCabos\UI\ListaCabos_00_ConexaoEDA_UI.xaml;Commands\Eletrica\ListaCabos\UI\ListaCabos_00_Configuracoes_UI - Copy.xaml;Commands\Eletrica\ListaCabos\UI\ListaCabos_02_Adicionar_Cabos_Aos_Trechos_UI.xaml;Commands\Eletrica\ListaCabos\UI\ListaCabos_0203_Filtrar_Tipo_Condutos_UI.xaml;Commands\Geral\UI\Setup_Geral_UI.xaml;Commands\Mecanica\DadosEngenharia\UI\DadosEngenharia_00_InsertTag_UI.xaml;Commands\Tubulacao\Isometrico\UI\Isometrico_0101_Preview_Orientation_UI.xaml;Commands\Tubulacao\Isometrico\UI\Isometrico_05_Detalha_Linhas_UI.xaml;Commands\Tubulacao\Isometrico\UI\Isometrico_02_Cria_Vista_Inicial_Linhas_UI.xaml;Commands\Tubulacao\Isometrico\UI\Isometrico_01_Cria_Vistas_Gerais_UI.xaml;Tools\UI\BLS_ProgressBar.xaml;
+
+True
+

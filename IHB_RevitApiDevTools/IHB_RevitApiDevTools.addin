@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>IHB_RevitApiDevTools/IHB_RevitApiDevTools</Name>
+    <Assembly>IHB_RevitApiDevTools\IHB_RevitApiDevTools.dll</Assembly>
+    <FullClassName>IHB_RevitApiDevTools.App</FullClassName>
+	  <ClientId>22D0C7F4-04BB-4D5B-93F2-F9BAC5B8CF79</ClientId>
+    <VendorId>br.com.ihavebim</VendorId>
+    <VendorDescription>I Have BIM, www.github.com/mayconrfreitas/ihb-revit-api-dev-tools</VendorDescription>
+  </AddIn>
+</RevitAddIns>

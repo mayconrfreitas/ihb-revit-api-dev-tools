@@ -1,0 +1,17 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+# Arquivos plugin
+/BLS_PDI_RevitAddin_2020/obj/
+
+#Arquivos cloud
+/cloud/bin/
+/cloud/obj/
+
+/packages/
+
+# IDE folders
+*.idea/
+.vs/
+*.vscode/

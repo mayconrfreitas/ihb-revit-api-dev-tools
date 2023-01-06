@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IHB_RevitApiDevTools", "IHB_RevitApiDevTools\IHB_RevitApiDevTools.csproj", "{B4623DE3-3C6A-4A51-828E-B0A4F3ECEC13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		Revit2020|Any CPU = Revit2020|Any CPU
+		Revit2020|x64 = Revit2020|x64
+		Revit2020|x86 = Revit2020|x86
+		Revit2022|Any CPU = Revit2022|Any CPU
+		Revit2022|x64 = Revit2022|x64
+		Revit2022|x86 = Revit2022|x86
+		Revit2023|Any CPU = Revit2023|Any CPU
+		Revit2023|x64 = Revit2023|x64
+		Revit2023|x86 = Revit2023|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4623DE3-3C6A-4A51-828E-B0A4F3ECEC13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4623DE3-3C6A-4A51-828E-B0A4F3ECEC13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4623DE3-3C6A-4A51-828E-B0A4F3ECEC13}.Debug|x64.ActiveCfg = Debug|x64
+		{B4623DE3-3C6A-4A51-828E-B0A4F3ECEC13}.Debug|x64.Build.0 = Debug|x64
+		{B4623DE3-3C6A-4A51-828E-B0A4F3ECEC13}.Debug|x86.ActiveCfg = Debug|x86
+		{B4623DE3-3C6A-4A51-828E-B0A4F3ECEC13}.Debug|x86.Build.0 = Debug|x86
+		{B4623DE3-3C6A-4A51-828E-B0A4F3ECEC13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4623DE3-3C6A-4A51-828E-B0A4F3ECEC13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4623DE3-3C6A-4A51-828E-B0A4F3ECEC13}.Release|x64.ActiveCfg = Release|x64
+		{B4623DE3-3C6A-4A51-828E-B0A4F3ECEC13}.Release|x64.Build.0 = Release|x64
+		{B4623DE3-3C6A-4A51-828E-B0A4F3ECEC13}.Release|x86.ActiveCfg = Release|x86
+		{B4623DE3-3C6A-4A51-828E-B0A4F3ECEC13}.Release|x86.Build.0 = Release|x86
+		{B4623DE3-3C6A-4A51-828E-B0A4F3ECEC13}.Revit2020|Any CPU.ActiveCfg = Revit2020|Any CPU
+		{B4623DE3-3C6A-4A51-828E-B0A4F3ECEC13}.Revit2020|Any CPU.Build.0 = Revit2020|Any CPU
+		{B4623DE3-3C6A-4A51-828E-B0A4F3ECEC13}.Revit2020|x64.ActiveCfg = Revit2020|x64
+		{B4623DE3-3C6A-4A51-828E-B0A4F3ECEC13}.Revit2020|x64.Build.0 = Revit2020|x64
+		{B4623DE3-3C6A-4A51-828E-B0A4F3ECEC13}.Revit2020|x86.ActiveCfg = Revit2020|x64
+		{B4623DE3-3C6A-4A51-828E-B0A4F3ECEC13}.Revit2020|x86.Build.0 = Revit2020|x64
+		{B4623DE3-3C6A-4A51-828E-B0A4F3ECEC13}.Revit2022|Any CPU.ActiveCfg = Revit2022|Any CPU
+		{B4623DE3-3C6A-4A51-828E-B0A4F3ECEC13}.Revit2022|Any CPU.Build.0 = Revit2022|Any CPU
+		{B4623DE3-3C6A-4A51-828E-B0A4F3ECEC13}.Revit2022|x64.ActiveCfg = Revit2022|x64
+		{B4623DE3-3C6A-4A51-828E-B0A4F3ECEC13}.Revit2022|x64.Build.0 = Revit2022|x64
+		{B4623DE3-3C6A-4A51-828E-B0A4F3ECEC13}.Revit2022|x86.ActiveCfg = Revit2022|x86
+		{B4623DE3-3C6A-4A51-828E-B0A4F3ECEC13}.Revit2022|x86.Build.0 = Revit2022|x86
+		{B4623DE3-3C6A-4A51-828E-B0A4F3ECEC13}.Revit2023|Any CPU.ActiveCfg = Revit2023|Any CPU
+		{B4623DE3-3C6A-4A51-828E-B0A4F3ECEC13}.Revit2023|Any CPU.Build.0 = Revit2023|Any CPU
+		{B4623DE3-3C6A-4A51-828E-B0A4F3ECEC13}.Revit2023|x64.ActiveCfg = Revit2023|x64
+		{B4623DE3-3C6A-4A51-828E-B0A4F3ECEC13}.Revit2023|x64.Build.0 = Revit2023|x64
+		{B4623DE3-3C6A-4A51-828E-B0A4F3ECEC13}.Revit2023|x86.ActiveCfg = Revit2023|x86
+		{B4623DE3-3C6A-4A51-828E-B0A4F3ECEC13}.Revit2023|x86.Build.0 = Revit2023|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C434206-E290-4B69-9B71-77FB9529B4D4}
+	EndGlobalSection
+EndGlobal
