@@ -316,6 +316,7 @@
   </ItemGroup>
   <!-- Arquivos compilados -->
   <ItemGroup>
+    <Compile Include="CodeEditor\Commands\CodePlayer.cs" />
     <Compile Include="Help\Commands\OpenHelp.cs" />
     <Compile Include="About\Views\AboutWnd.cs">
       <SubType>Form</SubType>
