@@ -48,6 +48,8 @@ namespace IHB_RevitApiDevTools.CodeEditor.Views
 
             InitializeComponent();
 
+            SetSyntaxHighlightingColors();
+
             IHB_Properties.IHBFolder = IHB_Methods.GetIHBFolder();
             string text = "";
             if (!File.Exists(IHB_Properties.IHBCsharpBaseFile))
@@ -107,7 +109,44 @@ namespace IHB_RevitApiDevTools.CodeEditor.Views
             IHB_Methods.btnClose_Click(this, sender, e);
         }
 
+        private void SetSyntaxHighlightingColors()
+        {
+            var highlighting = textEditor.SyntaxHighlighting;
+            highlighting.GetNamedColor("StringInterpolation").Foreground = new SimpleHighlightingBrush(Colors.Black);
+            highlighting.GetNamedColor("Punctuation").Foreground = new SimpleHighlightingBrush(Colors.Black);
+            highlighting.GetNamedColor("NumberLiteral").Foreground = new SimpleHighlightingBrush(Colors.Black);
+            highlighting.GetNamedColor("Comment").Foreground = new SimpleHighlightingBrush(Colors.ForestGreen);
+            highlighting.GetNamedColor("MethodCall").Foreground = new SimpleHighlightingBrush(Colors.DarkGoldenrod);
+            highlighting.GetNamedColor("GetSetAddRemove").Foreground = new SimpleHighlightingBrush(Colors.Blue);
+            highlighting.GetNamedColor("Visibility").Foreground = new SimpleHighlightingBrush(Colors.Blue);
+            highlighting.GetNamedColor("ParameterModifiers").Foreground = new SimpleHighlightingBrush(Colors.Blue);
+            highlighting.GetNamedColor("Modifiers").Foreground = new SimpleHighlightingBrush(Colors.Blue);
+            highlighting.GetNamedColor("String").Foreground = new SimpleHighlightingBrush(Colors.Brown);
+            highlighting.GetNamedColor("Char").Foreground = new SimpleHighlightingBrush(Colors.Red);
+            highlighting.GetNamedColor("Preprocessor").Foreground = new SimpleHighlightingBrush(Colors.DarkGray);
+            highlighting.GetNamedColor("TrueFalse").Foreground = new SimpleHighlightingBrush(Colors.Blue);
+            highlighting.GetNamedColor("Keywords").Foreground = new SimpleHighlightingBrush(Colors.Blue);
+            highlighting.GetNamedColor("ValueTypeKeywords").Foreground = new SimpleHighlightingBrush(Colors.Blue);
+            highlighting.GetNamedColor("SemanticKeywords").Foreground = new SimpleHighlightingBrush(Colors.Blue);
+            highlighting.GetNamedColor("NamespaceKeywords").Foreground = new SimpleHighlightingBrush(Colors.Blue);
+            highlighting.GetNamedColor("ReferenceTypeKeywords").Foreground = new SimpleHighlightingBrush(Colors.Blue);
+            highlighting.GetNamedColor("ThisOrBaseReference").Foreground = new SimpleHighlightingBrush(Colors.Blue);
+            highlighting.GetNamedColor("NullOrValueKeywords").Foreground = new SimpleHighlightingBrush(Colors.Blue);
+            highlighting.GetNamedColor("GotoKeywords").Foreground = new SimpleHighlightingBrush(Colors.Blue);
+            highlighting.GetNamedColor("ContextKeywords").Foreground = new SimpleHighlightingBrush(Colors.Blue);
+            highlighting.GetNamedColor("ExceptionKeywords").Foreground = new SimpleHighlightingBrush(Colors.Blue);
+            highlighting.GetNamedColor("CheckedKeyword").Foreground = new SimpleHighlightingBrush(Colors.Blue);
+            highlighting.GetNamedColor("UnsafeKeywords").Foreground = new SimpleHighlightingBrush(Colors.Blue);
+            highlighting.GetNamedColor("OperatorKeywords").Foreground = new SimpleHighlightingBrush(Colors.Blue);
+            highlighting.GetNamedColor("SemanticKeywords").Foreground = new SimpleHighlightingBrush(Colors.Blue);
 
+            foreach (var color in highlighting.NamedHighlightingColors)
+            {
+                color.FontWeight = null;
+            }
+            textEditor.SyntaxHighlighting = null;
+            textEditor.SyntaxHighlighting = highlighting;
+        }
 
 
         #endregion Funcionamento da Janela

@@ -149,7 +149,7 @@ namespace IHB_RevitApiDevTools
         private void AddRibbonPanel(UIControlledApplication application)
         {
             // Create custom ribbon tab
-            String tabName = "I Have BIM";
+            String tabName = "AECoder";
             application.CreateRibbonTab(tabName);
 
 
